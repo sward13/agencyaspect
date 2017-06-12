@@ -1,8 +1,7 @@
 /*neutral*/
 * {
 	font-family: 'karla', sans-serif;
-}.footer,
-.header {
+}.footer, #tagline{
 	background: #0c1a3a;
 	color: white;
 }
