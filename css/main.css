@@ -172,7 +172,7 @@ p.paragraph {
 .sidedevices {
   position: relative;
 }.header {
-	padding: 20px 0 90px 0;
+	padding: 20px 0 0 0;
 	overflow: hidden;
 }
 .header .heading {
