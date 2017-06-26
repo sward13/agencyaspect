@@ -197,7 +197,7 @@ p.paragraph {
 	margin: 120px 0 0 0;
 }
 .hero-img{
-	max-width:500px;
+	max-width:1024;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -205,7 +205,7 @@ p.paragraph {
   	top: 50%;
   	transform: translateY(50%);
   	-webkit-transform: translateY(50%);
-    -ms-transform: translateY(	50%);
+    -ms-transform: translateY(50%);
 
 }
 .header .centerdevices {
