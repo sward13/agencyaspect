@@ -196,11 +196,14 @@ p.paragraph {
 	padding: 20px 0 0 0;
 	background: #1c1a2b;
 	overflow: hidden;
-	background-image: url("../img/background.jpg");
-	background-size:100%;
-	background-position: center; 
-	background-repeat: no-repeat;
-	height:100vh;
+	background-image: url("../img/background_wide.jpg");
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 	display: flex;
 	align-items: center;
 }
