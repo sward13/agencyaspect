@@ -172,7 +172,8 @@ p.paragraph {
 }
 .container-lrg,
 .container-sml {
-  margin: auto;
+  margin-left:auto;
+  margin-right: auto;
   width: 100%;
 }
 .container-lrg {
@@ -199,14 +200,14 @@ p.paragraph {
 	overflow: hidden;
 	background-image: url("../img/background_wide.jpg");
     /* Full height */
-    height: 100%; 
+    height: 70%; 
 
     /* Center and scale the image nicely */
-    background-position: center;
+    background-position: center 90%;
     background-repeat: no-repeat;
     background-size: cover;
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 }
 .header .heading {
 	margin: 120px 0 0 0;
