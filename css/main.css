@@ -1,10 +1,11 @@
 /*neutral*/
 * {
 	font-family: 'karla', sans-serif;
-}#tagline{
+}#tagline, .nav{
 	background: #1c1a2b;
 	color: white;
 }
+.nav{padding-top:15px;}
 }.footer{
 	background: #fff;
 	color: #0c1a3a;
