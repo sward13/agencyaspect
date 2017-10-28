@@ -2,7 +2,7 @@
 * {
 	font-family: 'karla', sans-serif;
 }#tagline, .nav{
-	background: #1c1a2b;
+	background: #0c0b09;
 	color: white;
 }
 .nav{padding-top:15px;}
@@ -196,18 +196,18 @@ p.paragraph {
 }
 .header {
 	padding: 20px 0 0 0;
-	background: #1c1a2b;
+	background: #0c0b09;
 	overflow: hidden;
-	background-image: url("../img/background_wide.jpg");
+	background-image: url("../img/agency_bkg_new.jpg");
     /* Full height */
     height: 70%; 
 
     /* Center and scale the image nicely */
-    background-position: center 90%;
+    background-position: center 60%;
     background-repeat: no-repeat;
     background-size: cover;
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 }
 .header .heading {
 	margin: 120px 0 0 0;
