@@ -1,7 +1,7 @@
 /*neutral*/
 * {
 	font-family: 'karla', sans-serif;
-}#tagline, .nav{
+}#tagline, .nav, .col-6{
 	background: #0c0b09;
 	color: white;
 }
@@ -65,7 +65,7 @@ body {
   }
 }
 .paragraph {
-  font-size: 17px;
+  font-size: 24px;
   line-height: 32px;
   font-weight: 100;
 }
@@ -76,7 +76,7 @@ body {
   margin-top: 10px;
 }
 p.paragraph {
-  color: rgba(0,0,0,.5);
+
 }
 .logo {
   font-size: 30px;
@@ -158,6 +158,8 @@ p.paragraph {
 .col-11 {width: 91.666667%;}
 .col-12 {width: 100%;}
 
+.col-6{padding: 0;}
+
 /*containers*/
 .container-header{
 	width: 100%;
@@ -209,12 +211,90 @@ p.paragraph {
 	display: flex;
 	align-items: center;
 }
+.feature {
+	padding: 20px 0 0 0;
+	background: #0c0b09;
+	overflow: hidden;
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+	align-items: center;
+}
+.feature1 {
+	padding: 20px 0 0 0;
+	background: #0c0b09;
+	overflow: hidden;
+	background-image: url("../img/marissa1.jpg");
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+	align-items: center;
+}
+.feature2 {
+	padding: 20px 0 0 0;
+	background: #0c0b09;
+	overflow: hidden;
+	background-image: url("../img/bags.jpg");
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+	align-items: center;
+}
+.feature3 {
+	padding: 20px 0 0 0;
+	background: #0c0b09;
+	overflow: hidden;
+	background-image: url("../img/marissa2.jpg");
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+	align-items: center;
+}
+.feature4 {
+	padding: 20px 0 0 0;
+	background: #0c0b09;
+	overflow: hidden;
+	background-image: url("../img/founders.jpg");
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+	align-items: center;
+}
 .header .heading {
 	margin: 120px 0 0 0;
 }
 .hero-img{
 	max-width:1024;
 	max-height:475;
+	margin:auto;
+}
+.detail-img{
+	max-width:100%;
 	margin:auto;
 }
 .header .centerdevices {
