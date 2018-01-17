@@ -76,7 +76,7 @@ body {
   margin-top: 10px;
 }
 p.paragraph {
-
+	padding:10px;
 }
 .logo {
   font-size: 30px;
@@ -226,64 +226,16 @@ p.paragraph {
 	align-items: center;
 }
 .feature1 {
-	padding: 20px 0 0 0;
-	background: #0c0b09;
-	overflow: hidden;
 	background-image: url("../img/marissa1.jpg");
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center 60%;
-    background-repeat: no-repeat;
-    background-size: cover;
-	display: flex;
-	align-items: center;
 }
 .feature2 {
-	padding: 20px 0 0 0;
-	background: #0c0b09;
-	overflow: hidden;
 	background-image: url("../img/bags.jpg");
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center 60%;
-    background-repeat: no-repeat;
-    background-size: cover;
-	display: flex;
-	align-items: center;
 }
 .feature3 {
-	padding: 20px 0 0 0;
-	background: #0c0b09;
-	overflow: hidden;
 	background-image: url("../img/marissa2.jpg");
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center 60%;
-    background-repeat: no-repeat;
-    background-size: cover;
-	display: flex;
-	align-items: center;
 }
 .feature4 {
-	padding: 20px 0 0 0;
-	background: #0c0b09;
-	overflow: hidden;
 	background-image: url("../img/founders.jpg");
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center 60%;
-    background-repeat: no-repeat;
-    background-size: cover;
-	display: flex;
-	align-items: center;
 }
 .header .heading {
 	margin: 120px 0 0 0;
@@ -330,6 +282,7 @@ p.paragraph {
 	border: 1px solid white;
 	text-decoration: none;
 }
+
 @media (max-width: 440px) {
 	.ctas-input,
 	.ctas-button {
@@ -417,16 +370,11 @@ p.paragraph {
 	.ctas-button {
 		margin: 10px 0 0 0;
 	}
-}.feature1 {
-	padding: 90px 0;
-	border-bottom: 1px solid rgba(0,0,0,.1);
+	.feature{
+		height: 30%; 
+	}
+	.paragraph {
+  font-size: 18px;
+  line-height: 21px;
 }
-.feature1	.centerdevices {
-	margin-top: 90px;
-}.feature1 {
-	padding: 90px 0;
-	border-bottom: 1px solid rgba(0,0,0,.1);
-}
-.feature1	.centerdevices {
-	margin-top: 90px;
 }
