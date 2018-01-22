@@ -385,11 +385,20 @@ p.paragraph.detail {
   		font-size: 18px;
   		line-height: 21px;
 	}
-	.flex, .center{display: block;}
 	.col-6{width:100%;}
 	p.paragraph.detail {
 	max-width:80%;
 	margin-left:auto;
 	margin-right:auto;
-}
+	}
+	.flex .text-center{
+		padding-top:35px;
+		padding-bottom:35px;
+	}
+	.flex {
+		display: flex;
+		flex-direction: column;
+	}
+	.b {order:2;}
+	.a {order:1;}
 }
