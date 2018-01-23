@@ -127,6 +127,7 @@ p.paragraph.detail {
 .center {
   align-items: center;
   justify-content: center;
+  flex: 0 0 auto;
 }
 .centervertical {
   flex-direction: column;
