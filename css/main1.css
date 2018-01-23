@@ -127,7 +127,6 @@ p.paragraph.detail {
 .center {
   align-items: center;
   justify-content: center;
-  flex: 0 0 auto;
 }
 .centervertical {
   flex-direction: column;
@@ -257,6 +256,7 @@ p.paragraph.detail {
 .detail-img{
 	max-width:100%;
 	margin:auto;
+	flex: 0 0 auto;
 }
 .header .centerdevices {
 	margin: 60px 0 60px;
