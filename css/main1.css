@@ -85,6 +85,9 @@ p.paragraph {
 	color:#ffffff;
 	padding-top: 25px;
 }
+a:visited {
+	color:#ffffff;
+}
 p.paragraph.detail {
 	max-width:60%;
 	margin-left:auto;
